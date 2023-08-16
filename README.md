@@ -12,4 +12,4 @@ Using Docker Compose to host Shairport-sync on Orange Pi Zero 3 with Orange Pi E
 Audio will heavly delay causing audio stutter.
 
 # Fix
-Follow the [**TROUBLESHOOTING**]([https://github.com/mikebrady/shairport-sync/blob/master/TROUBLESHOOTING.md#stuttering-audio-on-ceh-as-the-creative-soundblaster-mp3](https://github.com/mikebrady/shairport-sync/blob/master/TROUBLESHOOTING.md#stuttering-audio-on-certain-usb-dacs-such-as-the-creative-soundblaster-mp3)https://github.com/mikebrady/shairport-sync/blob/master/TROUBLESHOOTING.md#stuttering-audio-on-certain-usb-dacs-such-as-the-creative-soundblaster-mp3) guide to create **asound.conf** file and supply it into the container.
+Follow the [TROUBLESHOOTING](https://github.com/mikebrady/shairport-sync/blob/master/TROUBLESHOOTING.md#stuttering-audio-on-certain-usb-dacs-such-as-the-creative-soundblaster-mp3) guide to create **asound.conf** file and supply it into the container.
