@@ -1,0 +1,16 @@
+version: "3.8"
+services:
+  shairport-sync:
+    container_name: shairport-sync
+    image: mikebrady/shairport-sync
+    network_mode: host
+    volumes:
+      - ./config/shairport-sync/shairport-sync.conf:/etc/shairport-sync.conf
+      - ./config/shairport-sync/asound.conf:/etc/asound.conf
+    restart: unless-stopped
+    devices:
+      - "/dev/snd"
+    logging:
+      options:
+        max-size: "200k"
+        max-file: "10" 
